@@ -1,4 +1,3 @@
-from django.conf.global_settings import DATABASES
 from FinalCountDown.settings.base import *
 import dj_database_url
 
