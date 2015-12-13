@@ -2,7 +2,7 @@ from FinalCountDown.settings.base import *
 
 DEBUG = True
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = []
 
