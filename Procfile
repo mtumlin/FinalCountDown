@@ -1,1 +1,1 @@
-web: gunicorn wsgi.wsgi --log-file -
+web: gunicorn FinalCountDown.wsgi --log-file -
