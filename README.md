@@ -2,6 +2,7 @@
 
 Counter that counts down to specified date. can be configured with an infinate amount of events.
 
-List page
+###Pages implemented
+1.List page
 
-Detailed page
+2.Detailed page
