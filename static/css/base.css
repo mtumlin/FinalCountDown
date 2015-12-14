@@ -1,0 +1,30 @@
+.content{
+    background-color: lightslategrey;
+}
+
+.event-list-item{
+    list-style: none;
+    float: left;
+    padding:10px;
+}
+
+.event-list-item_div{
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+}
+
+.event-list-item_p{
+    margin-top: 0;
+}
+
+.event-list-item_a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.big_p{
+    font-size: 50px;
+}
+
+.big_span

@@ -1,5 +1,9 @@
+{% load staticfiles %}
 <html>
-    <body style="background-color: lightslategrey">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static "css/base.css" %}">
+</head>
+    <body class="content">
         {% block title %}Default header for a page{% endblock %}
         {% block content %}{% endblock %}
         {% block footer %}{% endblock %}

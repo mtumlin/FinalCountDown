@@ -5,9 +5,9 @@
     {% if list_of_events %}
         <ul>
         {% for event in list_of_events %}
-            <li style="list-style: none;float: left; padding:10px"><a href="{% url 'countdown:detail' event.id %}" style="text-decoration: none;color: #000000;">
-                <div style="border: 2px solid; width: 200px; height: 200px;">
-                <p style="margin-top: 0">{{ event.heading_text }}</p>
+            <li class="event-list-item"><a href="{% url 'countdown:detail' event.id %}" class="event-list-item_a">
+                <div class="event-list-item_div">
+                <p class="event-list-item_p">{{ event.heading_text }}</p>
                 <span>{{ event.date.date|timeuntil }}</span>
                 </div>
             </a></li>
